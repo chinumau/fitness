@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>fitnes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    body{
+      background:url("GYM.jpg");
+      background-size: 80%;
+      width:600px;
+     
+    }
+    img{
+      margin:5px 5px;
+      filter:invert(100%);
+      height:40px;
+      width:40px;
+    }.right li{
+      padding:30px 10px;
+      display:inline;
+    }
+    .right li a{
+      text-decoration:none;
+      font-size:20px;
+      color:white;
+    }
+    .right li a:hover{
+    color:yellow;
+    }
+    .container{
+      padding-left:100px;
+      width:300px;
+      text-align:center;
+      margin-top:200px;
+      color:yellow;
+    }
+    .container input{
+      margin-top:10px;
+      padding:6px;
+      width:300px;
+      border:2px solid yellow;
+      border-radius:5px;
+    }
+    .btn{
+      margin-top:10px;
+      margin-left:300px;
+      padding:6px;
+      border:2px solid yellow;
+      border-radius:5px;
+      
+    }
+    .btn:hover{
+      color:grey;
+      background-color:hotpink;
+    }
+    h1{
+      font-size:30px;
+    }
+
+    </style>
+
+
+  </head>
+  <body>
+    <nav class="right">
+      <ul>
+        <img src="icon.png" alt="logo">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a>    </li>
+      <li><a href="#">Service</a></li>
+       <li><a href="#">Contact Us</a></li>
+      </ul>
+
+    </nav>
+  <div class="container">
+ <h1>JOIN FITNESS CLUB</h1>
+  <input type="text" name="name" placeholder="your name">
+  <input type="number" name="name" placeholder="your phone-number">
+  <input type="mail" name="name" placeholder="your email">
+  </div>
+  <button class="btn">SUBMIT</button>
+  <script src="script.js"></script>
+  </body>
+</html>
